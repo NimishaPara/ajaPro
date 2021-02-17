@@ -261,8 +261,9 @@ RIGHT SIDEBAR TOGGLE SECTION
 								<ul class="menu">
 									<li><a href="index.html">Home</a></li>
 									<li><a href="about.html">About Us</a></li>
-									<li>
-										<!-- First Tier Drop Down -->
+									<li><a href="index.html">Services</a></li>
+									<!-- <li>
+							
 										<label for="drop-2" class="toggle toogle-2">Dropdown <span
 												class="fa fa-angle-down" aria-hidden="true"></span>
 										</label>
@@ -276,7 +277,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 											<li><a href="faq.html" class="drop-text">Our Work</a></li>
 											<li><a href="about.html" class="drop-text">Our Team</a></li>
 										</ul>
-									</li>
+									</li> -->
 									<li><a href="contact.html" class="active">Contact Us</a></li>
 								</ul>
 							</nav>
@@ -297,6 +298,19 @@ RIGHT SIDEBAR TOGGLE SECTION
 					<div class="col-lg-6 mt-lg-0 mt-5">
 						<!-- contact form grid -->
 						<div class="contact-top1">
+							<!-- <?php //if "email" variable is filled out, send email   if (isset($_REQUEST['email']))  {    
+								  //Email information   $admin_email = "nimishaparashar01@gmail.com";   $email = $_REQUEST['email'];
+								     $subject = $_REQUEST['subject'];   $comment = $_REQUEST['comment'];     
+									  //send email   mail($admin_email, "$subject", $comment, "From:" . $email);      //Email response   echo "Thank you for contacting us!";   }      //if "email" variable is not filled out, display the form   else  { ?>
+							<form method="post">
+								Email: <input name="email" type="text" />
+								Subject: <input name="subject" type="text" />
+								Message:
+								<textarea name="comment" rows="15" cols="40"></textarea>
+								<input type="submit" value="Submit" />
+							</form>
+							<?php   } ?> -->
+							<!-- <form action="mailto:nimishaparashar@gmail.com" method="post" class="contact-wthree-do"> -->
 							<form action="success.html" method="post" class="contact-wthree-do">
 								<div class="form-group">
 									<div class="row">

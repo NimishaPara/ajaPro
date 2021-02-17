@@ -1117,6 +1117,9 @@ h6.accordion-textm {
 h3.sec-hedadc {
     color: #1dd1a1;
 }
+.data{
+    margin-top: 100px;
+}
 
 .prices {
     transition: 0.5s all;
